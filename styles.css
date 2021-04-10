@@ -24,6 +24,9 @@ h1 {
 
 .countdown-container {
     display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
 }
 
 .big-text {
@@ -39,4 +42,24 @@ h1 {
 
 .countdown-el span {
     font-size: 1.3rem;
+}
+
+#days {
+    color: crimson;
+}
+
+#hours {
+    color: blueviolet;
+}
+
+#mins {
+    color: darkcyan;
+}
+
+#seconds {
+    color: forestgreen;
+}
+
+h1 {
+    color: yellowgreen;
 }
